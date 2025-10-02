@@ -9,13 +9,11 @@ Version:        2.0.3
 Release:        %autorelease
 Summary:        Utility crate for lazily formatting values for later
 
-SourceLicense:  MPL-2.0
-# FIXME: paste output of %%cargo_license_summary here
-License:        # FIXME
+License:        MPL-2.0
 # LICENSE.dependencies contains a full license breakdown
 
 URL:            https://github.com/Lucretiel/lazy_format
-Source:         # FIXME
+Source:         %{url}/archive/refs/tags/{version}.tar.gz
 
 BuildRequires:  cargo-rpm-macros >= 26
 
