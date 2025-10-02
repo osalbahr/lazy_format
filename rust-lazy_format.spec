@@ -13,7 +13,7 @@ License:        MPL-2.0
 # LICENSE.dependencies contains a full license breakdown
 
 URL:            https://github.com/Lucretiel/lazy_format
-Source:         %{url}/archive/refs/tags/{version}.tar.gz
+Source:         %{url}/archive/refs/tags/%{version}.tar.gz
 
 BuildRequires:  cargo-rpm-macros >= 26
 
