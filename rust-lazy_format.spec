@@ -4,7 +4,7 @@
 # prevent library files from being installed
 %global cargo_install_lib 0
 
-Name:           lazy_format
+Name:           rust-lazy_format
 Version:        2.0.3
 Release:        %autorelease
 Summary:        Utility crate for lazily formatting values for later
@@ -13,7 +13,7 @@ License:        MPL-2.0
 # LICENSE.dependencies contains a full license breakdown
 
 URL:            https://github.com/Lucretiel/lazy_format
-Source:         %{url}/archive/refs/tags/%{version}.tar.gz
+Source:         %{url}/archive/refs/tags/{version}.tar.gz
 
 BuildRequires:  cargo-rpm-macros >= 26
 
